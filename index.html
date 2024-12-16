@@ -9,49 +9,49 @@
   <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
 </head>
 
-<body>
+<body class="page">
   <div class="matrix">
     <img class="matrix__img" src="./eisenhower-matrix.jpg" alt="matrix">
     <a class="matrix__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details ?</a>
   </div>
   <div class="centered-main-page-element">
     <p class="centered-main-page-element__top-section">
-      <label for="new-task">Add Item</label>
+      <label for="new-task" class="centered-main-page-element__heading">Add Item</label>
     <div class="centered-main-page-element__task-row-wrapper task-row-wrapper">
       <input id="new-task" class="centered-main-page-element__task task" type="text">
-      <button>Add</button>
+      <button class="centered-main-page-element__button">Add</button>
     </div>
     </p>
-    <h3>Todo</h3>
+    <h3 class="centered-main-page-element__heading">Todo</h3>
     <ul class="centered-main-page-element__list" id="incomplete-tasks">
       <li class="centered-main-page-element__item">
         <input type="checkbox" class="centered-main-page-element__checkbox">
         <label class="centered-main-page-element__task task">Pay Bills</label>
-        <input type="text" class="centered-main-page-element__task task"">
-        <button class=" centered-main-page-element__edit edit">Edit</button>
-        <button class="centered-main-page-element__delete delete">
-          <img src="./remove.svg" alt="">
+        <input type="text" class="centered-main-page-element__task task">
+        <button class=" centered-main-page-element__button edit">Edit</button>
+        <button class="centered-main-page-element__button delete">
+          <img src="./remove.svg" alt="" class="centered-main-page-element__button-img">
         </button>
       </li>
       <li class="centered-main-page-element__item edit-mode">
-        <input type="checkbox">
+        <input type="checkbox" class="centered-main-page-element__checkbox">
         <label class="centered-main-page-element__task task">Go Shopping</label>
         <input type="text" value="Go Shopping" class="centered-main-page-element__task task">
-        <button class="centered-main-page-element__edit edit">Save</button>
-        <button class="centered-main-page-element__delete delete">
-          <img src="./remove.svg" alt="">
+        <button class="centered-main-page-element__button edit">Save</button>
+        <button class="centered-main-page-element__button delete">
+          <img src="./remove.svg" alt="" class="centered-main-page-element__button-img">
         </button>
       </li>
     </ul>
-    <h3>Completed</h3>
+    <h3 class="centered-main-page-element__heading">Completed</h3>
     <ul class="centered-main-page-element__list" id="completed-tasks">
       <li class="centered-main-page-element__item">
         <input type="checkbox" checked class="centered-main-page-element__checkbox">
         <label class="centered-main-page-element__task task">See the Doctor</label>
         <input type="text" class="centered-main-page-element__task task">
-        <button class="centered-main-page-element__edit edit">Edit</button>
-        <button class="centered-main-page-element__delete delete">
-          <img src="./remove.svg" alt="">
+        <button class="centered-main-page-element__button edit">Edit</button>
+        <button class="centered-main-page-element__button delete">
+          <img src="./remove.svg" alt="" class="centered-main-page-element__button-img">
         </button>
       </li>
     </ul>
